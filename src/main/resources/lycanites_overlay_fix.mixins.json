@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.lycanitesfix.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "injectors": { "defaultRequire": 0 },
+  "client": [
+    "ScreenMixin",
+    "BaseOverlayScreenMixin",
+    "BaseOverlayScreenCtorMixin",
+    "MobEventPlayerClientMixin",
+    "DrawHelperMixin"
+  ]
+}

@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "lycanites_overlay_fix"
+version = "1.1.0"
+displayName = "Lycanites Overlay Fix"
+description = '''Arregla crashes y el cartel invisible de eventos de Lycanites Mobs (BaseOverlayScreen sin Minecraft; quad sin shader ni textura).'''
+
+[[mixins]]
+config = "lycanites_overlay_fix.mixins.json"
+
+[[dependencies.lycanites_overlay_fix]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.lycanites_overlay_fix]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.21.2)"
+ordering = "NONE"
+side = "CLIENT"
